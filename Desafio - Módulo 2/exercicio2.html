@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+  </head>
+
+  <body>
+    
+    <button id="" type="button" onclick="criarElemento()">Clique aqui</button>
+
+    <div id="box">
+
+    </div>
+
+    <script>
+
+      function getRandomColor() {
+        var letters = "0123456789ABCDEF";
+        var color = "#";
+        for (var i = 0; i < 6; i++) {
+          color += letters[Math.floor(Math.random() * 16)];
+        }
+        return color;
+      }
+
+      // Creating square when pressing the button
+      function criarElemento() {
+        var squadElement = document.createElement('div')
+
+        // Styling the element
+        squadElement.style.height = '100px'
+        squadElement.style.width = '100px'
+        squadElement.style.background = 'red'
+        squadElement.style.margin = '10px'
+
+        // Aplying the function getRandomColor()
+        squadElement.onmouseover = function() { 
+          squadElement.style.backgroundColor = getRandomColor()
+        }
+
+        var boxElement = document.getElementById('box')
+        boxElement.appendChild(squadElement)
+      }
+
+      
+
+      
+
+    </script>
+
+  </body>
+</html>

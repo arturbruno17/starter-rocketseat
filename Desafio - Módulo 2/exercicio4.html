@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+  </head>
+
+  <body>
+
+    <input type="text" name="nome">
+    <button onClick="adicionar()">Adicionar</button>
+    
+    <ul id="listaDeNomes">
+
+    </ul>
+
+    <script>
+
+      // Procurando elementos no DOM
+      var nomes = ["Diego", "Gabriel", "Lucas"]
+      var ulElement = document.getElementById('listaDeNomes')
+      var inputElement = document.querySelector('input')
+
+      // Função que obtem o valor obtido no parâmetro 'nome' e transferindo para a lista
+      function addItem(nome) {
+        var liElement = document.createElement('li')
+        var textElement = document.createTextNode(nome)
+
+        ulElement.appendChild(liElement)
+        liElement.appendChild(textElement)
+      }
+
+      // Obtem o valor do input e transfere para a função addItem()
+      function adicionar() {
+        addItem(inputElement.value)
+        inputElement.value = ''
+      }
+
+      for (nome of nomes) {
+        addItem(nome)
+      }
+      
+
+    </script>
+
+  </body>
+</html>

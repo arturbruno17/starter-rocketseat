@@ -1,17 +1,23 @@
 "use strict";
 
-// Const: apenas leitura, mas mutável
-// const usuario = {nome : 'Artur'}
-// usuario.nome = 'Diego'
-// console.log(usuario)
-function teste(x) {
-  var y = 2;
+var arr = [1, 3, 4, 5, 8, 9]; // .map
 
-  if (x > 5) {
-    var _y = 4;
-    console.log(x, _y);
-  }
-} // console.log(y) ERROR
+var newArr = arr.map(function (item, index) {
+  return item * index;
+});
+console.log(newArr); // .reduce
 
+var sum = arr.reduce(function (total, next) {
+  return total + next;
+});
+console.log(sum); // .filter
 
-teste(10);
+var filter = arr.filter(function (item) {
+  return item % 2 === 0;
+});
+console.log(filter); // .find
+
+var find = arr.find(function (item) {
+  return item === 4;
+});
+console.log(find);

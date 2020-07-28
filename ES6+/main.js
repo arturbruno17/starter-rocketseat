@@ -1,20 +1,29 @@
-// Const: apenas leitura, mas mutável
-// const usuario = {nome : 'Artur'}
+const arr = [1, 3, 4, 5, 8, 9]
 
-// usuario.nome = 'Diego'
+// .map
+const newArr = arr.map(function(item, index) {
+    return item * index
+})
 
-// console.log(usuario)
+console.log(newArr)
 
-function teste(x) {
-    let y = 2
+// .reduce
+const sum = arr.reduce(function(total, next) {
+    return total + next
+})
 
-    if(x > 5) {
-        let y = 4
+console.log(sum)
 
-        console.log(x, y)
-    }
-}
+// .filter
+const filter = arr.filter(function(item) {
+    return item % 2 === 0
+})
 
-// console.log(y) ERROR
+console.log(filter)
 
-teste(10)
+// .find
+const find = arr.find(function(item) {
+    return item === 4
+})
+
+console.log(find)

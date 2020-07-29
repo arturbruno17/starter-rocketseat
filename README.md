@@ -11,6 +11,8 @@ Esse repositório foi para guardar os exercícios propostos no curso [Starter](h
 
     3. [App de todos](https://github.com/arturbruno17/starter-rocketseat/tree/master/JavaScript/Desafio%20-%20M%C3%B3dulo%203)
 
+    4. [JS Assíncrono](https://github.com/arturbruno17/starter-rocketseat/tree/master/JavaScript/Desafio%20-%20M%C3%B3dulo%204)
+
 2. ES6+
     1. [Conceitos](https://github.com/arturbruno17/starter-rocketseat/tree/master/ES6%2B/Desafio%20-%20M%C3%B3dulo%201)
 

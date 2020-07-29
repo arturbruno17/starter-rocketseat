@@ -1,6 +1,6 @@
 # Starter Rocketseat
 
-Esse repositório foi para guardar os exercícios propostos no curso [Starter](https://app.rocketseat.com.br/journey/starter) da Rocketseat
+Esse repositório foi feito para guardar os exercícios propostos no curso [Starter](https://app.rocketseat.com.br/journey/starter) da Rocketseat
 
 ## Módulos
 
@@ -16,6 +16,6 @@ Esse repositório foi para guardar os exercícios propostos no curso [Starter](h
 2. ES6+
     1. [Conceitos](https://github.com/arturbruno17/starter-rocketseat/tree/master/ES6%2B/Desafio%20-%20M%C3%B3dulo%201)
 
-    2. [Webpack Server](https://github.com/arturbruno17/starter-rocketseat/blob/master/ES6%2B/src/main.js)
+    2. [Webpack Server](https://github.com/arturbruno17/starter-rocketseat/blob/master/ES6%2B/Desafio%20-%20M%C3%B3dulo%202/main.js)
 
 > Em breve colocarei os demais exercícios

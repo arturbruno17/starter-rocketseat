@@ -1,10 +1,5 @@
-const nome = 'Artur'
-const idade = 15
+import * as functions from './functions'
+// import somarNumeros from './soma'
 
-const usuaio = {
-    nome,
-    idade,
-    empresa: 'Rocketseat'
-}
-
-console.log(usuaio)
+console.log(functions.soma(1, 2))
+console.log(functions.sub(4, 2))

@@ -1,13 +1,14 @@
-// 1.1
-import ClassesUsuarios from './functions'
-ClassesUsuarios.info()
+import axios from 'axios'
 
+class Api {
+    static async getUserInfo(username) {
+        try {
+            const response = await axios.get(`https://api.github.com/users/${username}`)
+            console.log(response)
+        } catch(err) {
+            throw new Error('Erro ao buscar usuário')
+        }
+    }
+}
 
-// 1.2
-import { idade } from './functions'
-console.log(idade)
-
-// 1.3
-import Usuario, { idade as idadeUsuario } from './functions'
-Usuario.info()
-console.log(idadeUsuario)
+Api.getUserInfo('xdasdsafsafgsaf')

@@ -20,4 +20,6 @@ Esse repositório foi feito para guardar os exercícios propostos no curso [Star
 
     3. [Async/await](https://github.com/arturbruno17/starter-rocketseat/blob/master/ES6%2B/Desafio%20-%20M%C3%B3dulo%203/main.js)
 
+    4. [Aplicação com ES6+](https://github.com/arturbruno17/starter-rocketseat/tree/master/ES6%2B/Desafio%20-%20M%C3%B3dulo%204)
+
 > Em breve colocarei os demais exercícios
